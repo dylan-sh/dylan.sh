@@ -100,7 +100,7 @@
 
 
 					</p>
-					<p class="text-center" id="message">here</p>
+					<p class="text-center" id="message"></p>
 					<!--short.io script-->
 					<script>
 						document.getElementById("shorten-url").onclick = function() {
@@ -121,10 +121,14 @@
 								return response.json();
 							}) 
 							.then(function(data){ 
-							document.getElementById("message").innerHTML = "Your short link is " + data.shortURL })
+							document.getElementById("message").innerHTML = "Your short link is ";
+							var a = document.createElement('a');
+							a.href = data.shortURL;
+							a.innerHTML = data.shortURL;
+							document.getElementById("message").appendChild(a);
 							document.getElementById("url-long").value='';
 						 }
-							</script>
+					</script>
 				</ul>
 			</div>
 			
@@ -902,4 +906,3 @@
 
 	</body>
 </html>
-
