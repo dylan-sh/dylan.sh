@@ -1202,8 +1202,8 @@ body.offcanvas {
 .btn-shorten {
   background: #2c98f0;
   color: #fff;
-  height:100px;
-  width:400px;
+  height:40px;
+  width:120px;
   border: 2px solid #2c98f0; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
