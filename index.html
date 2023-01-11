@@ -91,7 +91,32 @@
 					<div class="form-group">
 						<input type="url-long" class="form-control" placeholder="Enter URL" id="url-long" name="url-long">
 					</div>
-					<p><a href="resume.pdf" class="btn btn-primary btn-learn" style="text-align:center">Shorten URL <i class="icon-link2"></i></a></p>
+					<p><a href="resume.pdf" class="btn btn-primary btn-learn" id="shorten-url" style="text-align:center">Shorten URL <i class="icon-link2"></i></a></p>
+					<p id="message"></p>
+					<!--short.io script-->
+					<script>
+						document.getElementById("shorten-url").onclick = function() {
+						  var link = document.getElementById("url-long").value;
+						  var data = {
+							"domain":"l.dylan.sh",
+							"originalURL": link,
+							"allowDuplicates":false }; 
+						 fetch('https://api.short.cm/links/public', {
+							method: 'post',
+							headers: {
+							  'accept': 'application/json',
+							  'Content-Type': 'application/json',
+							  'authorization': 'pk_qlg44hcs63ZpWsBc'
+							},
+							body: JSON.stringify(data)
+						  }) .then(function(response) {
+								return response.json();
+							}) 
+							.then(function(data){ 
+							document.getElementById("message").innerHTML = "Your short link is " + data.shortURL })
+							document.getElementById("url-long").value='';
+						 }
+							</script>
 				</ul>
 			</div>
 			
