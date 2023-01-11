@@ -76,8 +76,9 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 300px;
-  position: fixed;
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
   overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
