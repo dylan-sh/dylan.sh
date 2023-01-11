@@ -190,7 +190,7 @@ figure {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
-    color: rgba(95, 95, 95, 0.5);
+    color: rgba(47, 46, 46, 0.5);
     padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
@@ -208,7 +208,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(82, 82, 82, 0.3);
+          color: rgba(46, 45, 45, 0.3);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
