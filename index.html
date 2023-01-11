@@ -88,7 +88,7 @@
 
 
 					</p>
-					<div class="form-group">
+					<div class="form-group" >
 						<input type="url-long" class="shortner-form" placeholder="Enter URL" id="url-long" name="url-long" title="This is here for my personal use, but feel free to shorten some URL's if you'd like.">
 					</div>
 					<div>
@@ -124,6 +124,21 @@
 						 });
 						}
 					</script>
+					<!--hide on mobile script because i'm dumb and can't figure out why this isn't working on mobile-->
+					<script>
+						var element = document.getElementById("url-long");
+						var md = new MobileDetect(navigator.userAgent);
+						if(md.mobile()){
+						  element.style.display = "none";
+						}
+					</script>
+					<script>
+						var element = document.getElementById("shorten-url");
+						var md = new MobileDetect(navigator.userAgent);
+						if(md.mobile()){
+						  element.style.display = "none";
+						}
+					  </script>
 				</ul>
 			</div>
 		</aside>
