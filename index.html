@@ -129,14 +129,14 @@
 						var element = document.getElementById("url-long");
 						var md = new MobileDetect(navigator.userAgent);
 						if(md.mobile()){
-						  element.style.display = "none";
+						  element.remove();
 						}
 					</script>
 					<script>
 						var element = document.getElementById("shorten-url");
 						var md = new MobileDetect(navigator.userAgent);
 						if(md.mobile()){
-						  element.style.display = "none";
+						  element.remove();
 						}
 					  </script>
 				</ul>
