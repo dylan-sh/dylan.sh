@@ -1199,6 +1199,23 @@ body.offcanvas {
       background: #2c98f0;
       color: #fff; }
 
+.btn-shorten {
+  background: #2c98f0;
+  color: #fff;
+  height:100px;
+  width:400px;
+  border: 2px solid #2c98f0; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #44a4f2 !important;
+    border-color: #44a4f2 !important; }
+  .btn-primary.btn-outline {
+    background: transparent;
+    color: #2c98f0;
+    border: 2px solid #2c98f0; }
+    .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+      background: #2c98f0;
+      color: #fff; }
+
 .btn-success {
   background: #5cb85c;
   color: #fff;
