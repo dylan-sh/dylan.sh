@@ -196,7 +196,7 @@ figure {
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
-        bottom: auto; } }
+        bottom: 0; } }
     #colorlib-aside .colorlib-footer span {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
