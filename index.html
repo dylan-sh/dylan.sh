@@ -794,6 +794,27 @@
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
+
+							<!--script to take data from .json and display the blog data-->
+							<script>
+								fetch('blogdata.json')
+								  .then(response => response.json())
+								  .then(data => {
+									let output = '';
+									data.forEach(function(post) {
+									  output += `
+										<div>
+										  <h2>${post.title}</h2>
+										  <p>${post.summary}</p>
+										  <p>${post.date}</p>
+										  <img src="${post.image}" alt="${post.title}">
+										</div>
+									  `;
+									});
+									document.getElementById('output').innerHTML = output;
+								  });
+							  </script>							  
+
 							<!--
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>

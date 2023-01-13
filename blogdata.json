@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Article 1",
+        "summary": "This is a summary of article 1",
+        "date": "2022-01-01",
+        "image": "image1.jpg"
+    },
+    {
+        "title": "Article 2",
+        "summary": "This is a summary of article 2",
+        "date": "2022-02-01",
+        "image": "image2.jpg"
+    },
+    {
+        "title": "Article 3",
+        "summary": "This is a summary of article 3",
+        "date": "2022-03-01",
+        "image": "image3.jpg"
+    }
+]
