@@ -3,14 +3,14 @@
         "title": "Article 1",
         "summary": "This is a summary of article 1",
         "date": "TBD",
-        "image": "./blog_images/housekeeping_mobilescript.png",
+        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
         "category":"Sample0"
     },
     {
         "title": "Article 2",
         "summary": "This is a summary of article 2",
         "date": "TBD",
-        "image": "./blog_images/housekeeping_mobilescript.png",
+        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
         "category":"Sample1"
     },
     {
