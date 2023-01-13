@@ -3,18 +3,21 @@
         "title": "Article 1",
         "summary": "This is a summary of article 1",
         "date": "2022-01-01",
-        "image": "image1.jpg"
+        "image": "image1.jpg",
+        "category":"Sample0"
     },
     {
         "title": "Article 2",
         "summary": "This is a summary of article 2",
         "date": "2022-02-01",
-        "image": "image2.jpg"
+        "image": "image2.jpg",
+        "category":"Sample1"
     },
     {
         "title": "Housekeeping",
         "summary": "Updating my website and blog with Github Pages",
         "date": "January 12, 2022",
-        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png"
+        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
+        "category":"Miscellaneous"
     }
 ]

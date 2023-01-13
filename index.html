@@ -797,7 +797,7 @@
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small><span id="date0"></small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<span><small><span id="date0"></small> | <small> <span id="cat0">  </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html"><span id="title0"></a></h3>
 									<p id="summary0"></p>
 								</div>
@@ -807,7 +807,7 @@
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small><span id="date1"></small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<span><small><span id="date1"></small> | <small> <span id="cat1"> </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html"><span id="title1"></span></a></h3>
 									<p id="summary1"></p>
 									
@@ -818,7 +818,7 @@
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small><span id="date2"></small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<span><small><span id="date2"></small> | <small> <span id="cat2"> </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html"><span id="title2"></span></a></h3>
 									<p id="summary2"></p>
 									
@@ -834,7 +834,7 @@
   						.then(data => {
     						globalData = data;
     						document.getElementById("title0").innerHTML = globalData[0].title;
-							document.getElementById("title1").innerHTML = globalData[1].title;
+							document.getElementById("title1").innerHTML = `${globalData[1].title}`;
 							document.getElementById("title2").innerHTML = globalData[2].title;
 							document.getElementById("summary0").innerHTML = globalData[0].summary;
 							document.getElementById("summary1").innerHTML = globalData[1].summary;
@@ -842,6 +842,9 @@
 							document.getElementById("date0").innerHTML = globalData[0].date;
 							document.getElementById("date1").innerHTML = globalData[1].date;
 							document.getElementById("date2").innerHTML = globalData[2].date;
+							document.getElementById("cat0").innerHTML = globalData[0].category;
+							document.getElementById("cat1").innerHTML = globalData[1].category;
+							document.getElementById("cat2").innerHTML = globalData[2].category;
 							/**
 							document.getElementById("image0").innerHTML = globalData[0].image;
 							document.getElementById("image1").innerHTML = globalData[1].image;
