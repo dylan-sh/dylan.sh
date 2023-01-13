@@ -757,13 +757,14 @@
 			</section>
 
 			<!--script to take data from .json and display the blog data-->
-			var globalData;
-			fetch('blogdata.json')
-  				.then(response => response.json())
- 				.then(data => {
-    				globalData = data;
-  			});
-
+			<script>
+				var globalData; //declare global variable
+				fetch('blogdata.json')
+				  .then(response => response.json())
+				  .then(data => {
+					globalData = data; //assign the data from the JSON file to the global variable
+				  });
+			</script>
 
 <script>
 	fetch('blogdata.json')
