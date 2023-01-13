@@ -798,7 +798,7 @@
 								<a href="blog.html" class="blog-img"><img id="image0" src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small><span id="date0" style="display: inline-block;"></small> | <small> <span id="cat0" style="display: inline-block;">  </small> </span>
-									<h3><a href="blog.html"><span id="title0"></a></h3>
+									<h3><a href="blog.html"><p id="title0"></p></a></h3>
 									<p id="summary0" style="display: inline-block;"></p>
 								</div>
 							</div>
@@ -809,7 +809,7 @@
 								<a href="blog.html" class="blog-img"><img id="image1" src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small><span id="date1" style="display: inline-block;"></small> | <small> <span id="cat1" style="display: inline-block;"> </small> </span>
-									<h3><a href="blog.html"><span id="title1"></span></a></h3>
+									<h3><a href="blog.html"><p id="title1"></p></a></h3>
 									<p id="summary1" style="display: inline-block;"></p>
 									
 								</div>
@@ -821,7 +821,7 @@
 								<a href="blog.html" class="blog-img"><img id="image2" src="" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small><span id="date2" style="display: inline-block;"></small> | <small> <span id="cat2" style="display: inline-block;"> </small> </span>
-									<h3><a href="blog.html"><p id="title2"></p></a></h3>
+									<h3><a href="" id="linkto2"><p id="title2"></p></a></h3>
 									<p id="summary2" style="display: inline-block;"></p>
 									
 								</div>
@@ -850,6 +850,9 @@
 									document.getElementById("image0").src = globalData[0].image;
 									document.getElementById("image1").src = globalData[1].image;
 									document.getElementById("image2").src = globalData[2].image;
+									document.getElementById("linkto0").innerHTML = globalData[0].linkto;
+									document.getElementById("linkto1").innerHTML = globalData[1].linkto;
+									document.getElementById("linkto2").innerHTML = globalData[2].linkto;
 							
 							
   								});
@@ -893,7 +896,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Visit Blog <i class="icon-document-text"></i></a></p>
+							<p><a href="https://blog.dylan.sh" class="btn btn-primary btn-lg btn-load-more">Visit Blog <i class="icon-document-text"></i></a></p>
 						</div>
 					</div>
 				</div>
