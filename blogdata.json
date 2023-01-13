@@ -12,9 +12,9 @@
         "image": "image2.jpg"
     },
     {
-        "title": "Article 3",
-        "summary": "This is a summary of article 3",
-        "date": "2022-03-01",
-        "image": "image3.jpg"
+        "title": "Housekeeping",
+        "summary": "Updating my website and blog with Github Pages",
+        "date": "2022-01-12",
+        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png"
     }
 ]
