@@ -779,41 +779,27 @@
 							<div class="blog-entry">
 								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<span><small>April 14, 2018 </small> | <small><span id="title2"></span></small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<div id="output-0">test</div>
-							</div>
-						</div>
+						
+						<script>
+						  document.getElementById("title2").innerHTML = globalData[2].title;
+						</script>
 
 							<!--script to take data from .json and display the blog data-->
-						<script>
-							var index = 0; //declare index variable
-							fetch('blogdata.json')
-							  .then(response => response.json())
-							  .then(data => {
-								let output = '';
-								data.forEach(function(post) {
-								  output += `
-									<div id="output-${index}">
-										<a href="blog.html" class="blog-img"><img src="${post.image}" class="img-responsive" alt="${post.title}"></a>
-										<div class="desc">
-											<span><small>${post.date}</small> | <small> test design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-											<h3><a href="blog.html">${post.title}</a></h3>
-											<p>${post.summary}</p>
-										</div>
-									</div>
-								  `;
-								  index++; //increment the index variable
-								});
-								document.getElementById('output').innerHTML = output;
-							  });
-						  </script>
+							<script>
+								var globalData; //declare global variable
+								fetch('data.json')
+								  .then(response => response.json())
+								  .then(data => {
+									globalData = data; //assign the data from the JSON file to the global variable
+								  });
+							</script>
+							  
 												
 
 							<!--
