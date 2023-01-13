@@ -765,6 +765,23 @@
 					globalData = data; //assign the data from the JSON file to the global variable
 				  });
 			</script>
+
+<script>
+	fetch('data.json')
+	  .then(response => {
+		  if(response.ok) {
+			  return response.json();
+		  }
+		  throw new Error('Error fetching data')
+	  })
+	  .then(data => {
+		  console.log(data);
+	  })
+	  .catch(error => {
+		  console.error('Error:', error);
+	  });
+  </script>
+  
 		
 			
 			<section class="colorlib-blog" data-section="blog">
