@@ -1,26 +1,26 @@
 [
     {
-        "title": "Article 1",
-        "summary": "Currently Testing",
-        "date": "TBD",
-        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
-        "category":"Sample0",
-        "linkto": "https://blog.dylan.sh/blog/2022/01/12/housekeeping/"
+        "title": "Macro Assist",
+        "summary": "Basic Macro Automation",
+        "date": "May 19, 2023",
+        "image": "https://github.com/dylan-sh/macro-assist/assets/50163127/607f9931-4e7e-41a0-8be6-2dfba5cc64e6",
+        "category":"Personal Project",
+        "linkto": "https://blog.dylan.sh/blog/2023/05/19/MacroAssist/"
     },
     {
-        "title": "Article 2",
-        "summary": "To see if something works sorry",
-        "date": "TBD",
-        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
-        "category":"Sample1",
-        "linkto": "https://blog.dylan.sh/blog/2022/01/12/housekeeping/"
+        "title": "El Localizador",
+        "summary": "Rudimentary Yelp",
+        "date": "May 18, 2023",
+        "image": "https://github.com/dylan-sh/el-localizador/assets/50163127/17750565-1791-4fd0-bff5-e2ca25c828e0",
+        "category":"Personal Project",
+        "linkto": "https://blog.dylan.sh/blog/2023/05/18/el-localizador/"
     },
     {
         "title": "Housekeeping",
         "summary": "Updating my website and blog with Github Pages",
-        "date": "January 12, 2022",
+        "date": "January 12, 2023",
         "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
         "category":"Miscellaneous",
-        "linkto": "https://blog.dylan.sh/blog/2022/01/12/housekeeping/"
+        "linkto": "https://blog.dylan.sh/blog/2023/01/12/housekeeping/"
     }
 ]
