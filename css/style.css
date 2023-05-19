@@ -872,7 +872,11 @@ body.offcanvas {
     overflow: hidden;
     position: relative;
     z-index: 1;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    height: 300px; /* or whatever needed */
+    display: flex;
+    justify-content: center; /* centers image horizontally */
+    align-items: center; /* centers image vertically */ }
     .blog-entry .blog-img img {
       position: relative;
       max-width: 100%;
@@ -883,7 +887,9 @@ body.offcanvas {
       transform: scale(1);
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
-      transition: 0.3s; }
+      transition: 0.3s;
+      max-height: 100%;
+      width: auto;  }
   .blog-entry .desc h3 {
     font-size: 16px;
     margin-bottom: 25px;
