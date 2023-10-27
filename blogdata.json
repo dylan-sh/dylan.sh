@@ -1,5 +1,13 @@
 [
     {
+        "title": "DalleMC",
+        "summary": "AI Image Generation in Minecraft using OpenAI's APIs",
+        "date": "May 25, 2023",
+        "image": "https://camo.githubusercontent.com/2bb9c70aa0c6fdd3f52e20125affc9e63548638f886c36441170ef8eb9818347/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f494b5066554f797978576b2f302e6a7067",
+        "category":"Personal Project",
+        "linkto": "https://blog.dylan.sh/blog/2023/05/25/DalleMC/"
+    },
+    {
         "title": "Macro Assist",
         "summary": "Basic Macro Automation",
         "date": "May 19, 2023",
@@ -14,13 +22,5 @@
         "image": "https://github.com/dylan-sh/el-localizador/assets/50163127/17750565-1791-4fd0-bff5-e2ca25c828e0",
         "category":"Personal Project",
         "linkto": "https://blog.dylan.sh/blog/2023/05/18/el-localizador/"
-    },
-    {
-        "title": "Housekeeping",
-        "summary": "Updating my website and blog with Github Pages",
-        "date": "January 12, 2023",
-        "image": "https://blog.dylan.sh/images/housekeeping_mobilescript.png",
-        "category":"Miscellaneous",
-        "linkto": "https://blog.dylan.sh/blog/2023/01/12/housekeeping/"
     }
 ]
